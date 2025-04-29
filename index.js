@@ -64,63 +64,115 @@ client.on('messageCreate', async (message) => {
   // Ignore bot messages and messages not in the ticket channel
   if (message.author.bot || message.channel.id !== config.ticketChannelId) return;
   
+  // Store message content before attempting to delete
+  const ticketContent = message.content;
+  const ticketAuthor = message.author;
+  const ticketGuild = message.guild;
+  
   try {
-    // Delete the original message to keep the channel clean
-    await message.delete();
+    // Try to delete the original message to keep the channel clean
+    // But wrap in try/catch to prevent errors if message is already gone
+    try {
+      if (message.deletable) {
+        await message.delete();
+      }
+    } catch (deleteError) {
+      console.log('Could not delete message, continuing with ticket creation:', deleteError.message);
+      // Continue with ticket creation even if message deletion fails
+    }
     
     // Check if user already has an open ticket
-    if (activeTickets.has(message.author.id)) {
-      const ticketChannelId = activeTickets.get(message.author.id);
-      const ticketChannel = message.guild.channels.cache.get(ticketChannelId);
+    if (activeTickets.has(ticketAuthor.id)) {
+      const ticketChannelId = activeTickets.get(ticketAuthor.id);
+      const ticketChannel = ticketGuild.channels.cache.get(ticketChannelId);
       
       if (ticketChannel) {
-        const reply = await message.author.send({
-          content: `You already have an open ticket at <#${ticketChannelId}>. Please use that channel instead.`
-        }).catch(() => {
-          // If DM fails, send message in ticket channel
-          message.channel.send({
-            content: `<@${message.author.id}>, you already have an open ticket at <#${ticketChannelId}>. Please use that channel instead.`,
-          }).then(msg => {
-            setTimeout(() => msg.delete().catch(() => {}), 5000);
+        try {
+          await ticketAuthor.send({
+            content: `You already have an open ticket at <#${ticketChannelId}>. Please use that channel instead.`
           });
-        });
+        } catch (dmError) {
+          // If DM fails, send message in ticket channel
+          const channel = client.channels.cache.get(config.ticketChannelId);
+          if (channel) {
+            channel.send({
+              content: `<@${ticketAuthor.id}>, you already have an open ticket at <#${ticketChannelId}>. Please use that channel instead.`,
+            }).then(msg => {
+              setTimeout(() => msg.delete().catch(() => {}), 5000);
+            }).catch(err => console.error('Failed to send notification:', err));
+          }
+        }
         return;
       } else {
         // If the ticket channel no longer exists, remove from activeTickets
-        activeTickets.delete(message.author.id);
+        activeTickets.delete(ticketAuthor.id);
       }
     }
     
-    // Create new ticket channel
-    const ticketChannel = await createTicketChannel(message);
+    // Create new ticket channel with the stored content and author
+    const ticketChannel = await createTicketChannel({
+      content: ticketContent,
+      author: ticketAuthor,
+      guild: ticketGuild
+    });
     
     // Store the ticket
     if (ticketChannel) {
-      activeTickets.set(message.author.id, ticketChannel.id);
+      activeTickets.set(ticketAuthor.id, ticketChannel.id);
     }
   } catch (error) {
     console.error('Error handling ticket creation:', error);
+    // Try to notify the user if an error occurs
+    try {
+      const channel = client.channels.cache.get(config.ticketChannelId);
+      if (channel) {
+        channel.send({
+          content: `<@${ticketAuthor.id}>, there was an error creating your ticket. Please try again later or contact an administrator.`,
+        }).then(msg => {
+          setTimeout(() => msg.delete().catch(() => {}), 10000);
+        }).catch(err => console.error('Failed to send error notification:', err));
+      }
+    } catch (notifyError) {
+      console.error('Failed to notify user of error:', notifyError);
+    }
   }
 });
 
 // Create a new ticket channel
-async function createTicketChannel(message) {
+async function createTicketChannel(ticketData) {
   try {
     const ticketId = Date.now().toString().slice(-4);
-    const channelName = `ticket-${message.author.username}-${ticketId}`;
+    const authorUsername = ticketData.author?.username || 
+                         ticketData.author?.user?.username || 
+                         'user';
+    const channelName = `ticket-${authorUsername}-${ticketId}`;
+    
+    // Get author ID from the appropriate field based on the structure of ticketData
+    const authorId = ticketData.author?.id || ticketData.author?.user?.id;
+    const guildObj = ticketData.guild || ticketData.author?.guild;
+    
+    if (!guildObj) {
+      console.error('Guild object is missing in ticket data');
+      return null;
+    }
+    
+    if (!authorId) {
+      console.error('Author ID is missing in ticket data');
+      return null;
+    }
     
     // Create the channel
-    const ticketChannel = await message.guild.channels.create({
+    const ticketChannel = await guildObj.channels.create({
       name: channelName,
       type: ChannelType.GuildText,
       parent: config.ticketCategoryId,
       permissionOverwrites: [
         {
-          id: message.guild.id, // @everyone role
+          id: guildObj.id, // @everyone role
           deny: [PermissionFlagsBits.ViewChannel],
         },
         {
-          id: message.author.id,
+          id: authorId,
           allow: [PermissionFlagsBits.ViewChannel, PermissionFlagsBits.SendMessages, PermissionFlagsBits.ReadMessageHistory],
         },
         {
@@ -145,32 +197,48 @@ async function createTicketChannel(message) {
     
     const row = new ActionRowBuilder().addComponents(acceptButton, closeButton);
     
+    // Extract content from the appropriate field
+    const ticketContent = ticketData.content || 'No description provided.';
+    
     // Create welcome embed with ticket info
     const embed = new EmbedBuilder()
       .setTitle(`Ticket #${ticketId}`)
-      .setDescription(`Thank you for creating a ticket, <@${message.author.id}>! A staff member will assist you shortly.`)
+      .setDescription(`Thank you for creating a ticket, <@${authorId}>! A staff member will assist you shortly.`)
       .addFields(
-        { name: 'Issue', value: message.content || 'No description provided.' },
-        { name: 'Created by', value: `<@${message.author.id}>` },
+        { name: 'Issue', value: ticketContent },
+        { name: 'Created by', value: `<@${authorId}>` },
         { name: 'Created at', value: new Date().toLocaleString() }
       )
       .setColor(config.embedColor)
       .setFooter({ text: 'Please be patient while we review your ticket.' });
     
     // Send the embed with buttons
-    await ticketChannel.send({ content: `<@&${config.staffRoleId}> - New ticket from <@${message.author.id}>`, embeds: [embed], components: [row] });
+    await ticketChannel.send({ 
+      content: `<@&${config.staffRoleId}> - New ticket from <@${authorId}>`, 
+      embeds: [embed], 
+      components: [row] 
+    });
     
     // Send confirmation to user
-    await message.author.send({
-      content: `Your ticket has been created at <#${ticketChannel.id}>. Please wait for a staff member to assist you.`
-    }).catch(() => {
-      // If DM fails, send message in ticket channel
-      message.channel.send({
-        content: `<@${message.author.id}>, your ticket has been created at <#${ticketChannel.id}>. Please wait for a staff member to assist you.`,
-      }).then(msg => {
-        setTimeout(() => msg.delete().catch(() => {}), 5000);
-      });
-    });
+    try {
+      const user = client.users.cache.get(authorId);
+      if (user) {
+        await user.send({
+          content: `Your ticket has been created at <#${ticketChannel.id}>. Please wait for a staff member to assist you.`
+        });
+      }
+    } catch (dmError) {
+      console.log('Failed to send DM to user:', dmError.message);
+      // If DM fails, send message in ticket channel instead
+      const channel = client.channels.cache.get(config.ticketChannelId);
+      if (channel) {
+        channel.send({
+          content: `<@${authorId}>, your ticket has been created at <#${ticketChannel.id}>. Please wait for a staff member to assist you.`,
+        }).then(msg => {
+          setTimeout(() => msg.delete().catch(() => {}), 5000);
+        }).catch(err => console.error('Failed to send confirmation in channel:', err));
+      }
+    }
     
     return ticketChannel;
   } catch (error) {
@@ -309,6 +377,96 @@ client.on('messageCreate', async (message) => {
         .setFooter({ text: `Total: ${activeTickets.size} tickets` });
       
       message.reply({ embeds: [embed] });
+      break;
+
+    case 'add':
+      // Check if the command is used in a ticket channel
+      if (!message.channel.name.startsWith('ticket-')) {
+        message.reply('This command can only be used in a ticket channel.');
+        return;
+      }
+      
+      // Check if the user has staff permissions
+      if (!message.member.roles.cache.has(config.staffRoleId)) {
+        message.reply('You do not have permission to add users to tickets.');
+        return;
+      }
+      
+      // Get the mentioned user
+      const user = message.mentions.users.first();
+      if (!user) {
+        message.reply('Please mention a user to add to this ticket. Usage: `!add @user`');
+        return;
+      }
+      
+      try {
+        // Add the user to the ticket channel
+        await message.channel.permissionOverwrites.edit(user.id, {
+          ViewChannel: true,
+          SendMessages: true,
+          ReadMessageHistory: true
+        });
+        
+        // Send confirmation message
+        const embed = new EmbedBuilder()
+          .setTitle('User Added')
+          .setDescription(`<@${user.id}> has been added to the ticket by <@${message.author.id}>.`)
+          .setColor(config.embedColor)
+          .setTimestamp();
+        
+        message.channel.send({ embeds: [embed] });
+      } catch (error) {
+        console.error('Error adding user to ticket:', error);
+        message.reply('An error occurred while trying to add the user to this ticket.');
+      }
+      break;
+      
+    case 'remove':
+      // Check if the command is used in a ticket channel
+      if (!message.channel.name.startsWith('ticket-')) {
+        message.reply('This command can only be used in a ticket channel.');
+        return;
+      }
+      
+      // Check if the user has staff permissions
+      if (!message.member.roles.cache.has(config.staffRoleId)) {
+        message.reply('You do not have permission to remove users from tickets.');
+        return;
+      }
+      
+      // Get the mentioned user
+      const userToRemove = message.mentions.users.first();
+      if (!userToRemove) {
+        message.reply('Please mention a user to remove from this ticket. Usage: `!remove @user`');
+        return;
+      }
+      
+      // Don't allow removing the ticket creator
+      for (const [userId, channelId] of activeTickets.entries()) {
+        if (channelId === message.channel.id && userId === userToRemove.id) {
+          message.reply('You cannot remove the ticket creator from their own ticket.');
+          return;
+        }
+      }
+      
+      try {
+        // Remove the user from the ticket channel
+        await message.channel.permissionOverwrites.edit(userToRemove.id, {
+          ViewChannel: false
+        });
+        
+        // Send confirmation message
+        const embed = new EmbedBuilder()
+          .setTitle('User Removed')
+          .setDescription(`<@${userToRemove.id}> has been removed from the ticket by <@${message.author.id}>.`)
+          .setColor(config.embedColor)
+          .setTimestamp();
+        
+        message.channel.send({ embeds: [embed] });
+      } catch (error) {
+        console.error('Error removing user from ticket:', error);
+        message.reply('An error occurred while trying to remove the user from this ticket.');
+      }
       break;
   }
 });
