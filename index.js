@@ -1,6 +1,14 @@
 const { Client, GatewayIntentBits, Partials, ChannelType, PermissionFlagsBits, ButtonBuilder, ButtonStyle, ActionRowBuilder, EmbedBuilder } = require('discord.js');
 require('dotenv').config();
 
+const express = require('express');
+const app = express();
+const port = 1000;
+
+app.listen(port, () => {
+  console.log(`Server started on port ${port}`);
+});
+
 // Create a new client instance
 const client = new Client({
   intents: [
@@ -473,3 +481,4 @@ client.on('messageCreate', async (message) => {
 
 // Login to Discord with your token
 client.login(process.env.TOKEN);
+
