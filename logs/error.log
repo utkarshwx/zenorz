@@ -1,0 +1,128 @@
+[2025-05-18 14:07:09] error: 	Error setting up guild: Cannot read properties of undefined (reading 'permissions')
+[2025-05-18 14:07:09] error: 	Error setting up guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 15:58:20] error: 	Error setting up guild: interaction.reply is not a function
+[2025-05-18 15:58:20] error: 	Error setting up guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 16:07:42] error: 	Error setting up guild: interaction.reply is not a function
+[2025-05-18 16:07:42] error: 	Error setting up guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 16:14:55] error: 	Error setting up guild: interaction.reply is not a function
+[2025-05-18 16:14:55] error: 	Error setting up guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 16:18:32] error: 	Error setting up guild: Cannot read properties of undefined (reading 'permissions')
+[2025-05-18 16:18:32] error: 	Error setting up guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 19:10:32] error: 	Error setting up guild: PermissionFlagsBits is not defined
+[2025-05-18 19:10:32] error: 	Error setting up guild 1119589526738837605: The reply to this interaction has already been sent or deferred.
+[2025-05-18 19:13:06] error: 	Error setting up guild: PermissionFlagsBits is not defined
+[2025-05-18 19:13:06] error: 	Error setting up guild 1119589526738837605: The reply to this interaction has already been sent or deferred.
+[2025-05-18 19:32:30] error: 	Uncaught Exception: Unknown interaction
+[2025-05-18 19:39:54] error: 	Error uploading info for guild 1119589526738837605: uploadInfo is not a function
+[2025-05-18 19:46:17] error: 	Error uploading file: Cannot read properties of undefined (reading 'permissions')
+[2025-05-18 19:46:17] error: 	Error uploading info for guild 1119589526738837605: interaction.reply is not a function
+[2025-05-18 20:58:03] error: 	Error executing command setup: Unknown interaction
+[2025-05-18 20:58:03] error: 	Error handling interaction: Unknown interaction
+[2025-05-18 22:59:04] error: 	Error executing command setup: Unknown interaction
+[2025-05-18 22:59:05] error: 	Error handling interaction: Unknown interaction
+[2025-05-18 23:40:39] error: 	Error with Gemini API: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-05-19 00:30:48] error: 	Error creating ticket: Received one or more errors
+[2025-05-19 00:41:37] error: 	Error creating ticket: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0003" }
+[2025-05-19 00:41:38] error: 	Error creating ticket: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0003" }
+[2025-05-19 00:42:56] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:42:57] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:42:59] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:00] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:03] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:04] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:05] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:13] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:15] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:17] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:19] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:23] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:27] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:32] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:34] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:36] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:37] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:38] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:39] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:41] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:43] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:43:45] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:48] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:50] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:51] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:52] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:53] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:54] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:57] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:58] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:45:58] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:00] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:02] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:03] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:03] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:04] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:06] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:08] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:09] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:11] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:12] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:13] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:14] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:15] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:16] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:18] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:19] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:20] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:22] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:23] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:25] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:25] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:26] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:28] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:46:29] error: 	Error handling message for ticket creation: Reaction blocked
+[2025-05-19 00:50:47] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:47] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:48] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:49] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:50] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:50] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:51] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:52] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:53] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 00:50:54] error: 	Error handling message for ticket creation: Unknown Channel
+[2025-05-19 13:17:58] error: 	Error executing command setup: Interaction has already been acknowledged.
+[2025-05-19 13:17:59] error: 	Error handling interaction: Interaction has already been acknowledged.
+[2025-05-19 13:21:27] error: 	Error executing command setup: Interaction has already been acknowledged.
+[2025-05-19 13:21:27] error: 	Error handling interaction: Interaction has already been acknowledged.
+[2025-05-19 13:23:49] error: 	Error executing command setup: Interaction has already been acknowledged.
+[2025-05-19 13:23:50] error: 	Error handling interaction: Interaction has already been acknowledged.
+[2025-05-19 13:27:57] error: 	Error with Gemini API: result.text is not a function
+[2025-05-19 13:29:31] error: 	Error with Gemini API: response.text is not a function
+[2025-05-20 00:35:04] error: 	Error executing command setup: Interaction has already been acknowledged.
+[2025-05-20 00:35:04] error: 	Error handling interaction: Interaction has already been acknowledged.
+[2025-05-20 00:35:50] error: 	Error setting up guild 1119589526738837605: The reply to this interaction has already been sent or deferred.
+[2025-05-20 00:39:16] error: 	Error setting up guild 1119589526738837605: The reply to this interaction has already been sent or deferred.
+[2025-05-20 00:40:08] error: 	Error handling message for ticket creation: Ticket validation failed: status: `pending` is not a valid enum value for path `status`.
+[2025-05-20 09:55:45] error: 	Error handling message for ticket creation: Ticket validation failed: status: `pending` is not a valid enum value for path `status`.
+[2025-05-20 10:31:27] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0003" }
+[2025-05-20 10:31:28] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0004" }
+[2025-05-20 10:31:31] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0004" }
+[2025-05-20 10:31:32] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0005" }
+[2025-05-20 10:31:33] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0005" }
+[2025-05-20 10:31:34] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0005" }
+[2025-05-20 10:31:34] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0005" }
+[2025-05-20 10:31:35] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0005" }
+[2025-05-20 10:31:36] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0006" }
+[2025-05-20 10:31:37] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0006" }
+[2025-05-20 10:31:38] error: 	Error handling message for ticket creation: E11000 duplicate key error collection: test.tickets index: ticketId_1 dup key: { ticketId: "1119-0007" }
+[2025-05-20 13:53:43] error: 	Uncaught Exception: Unknown interaction
+[2025-05-20 14:08:58] error: 	Error handling message for ticket creation: Cannot read properties of undefined (reading 'roles')
+[2025-05-20 14:25:26] error: 	Failed to connect to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.c0.lhca1sz.mongodb.net
+[2025-05-20 15:13:33] error: 	Error handling message for ticket creation: Cannot read properties of undefined (reading 'roles')
+[2025-05-21 05:01:56] error: 	Uncaught Exception: Unknown interaction
+[2025-05-21 05:28:12] error: 	Error handling message for ticket creation: Cannot read properties of undefined (reading 'roles')
+[2025-05-21 07:04:02] error: 	Error in ticket request creation: MessageEmbed is not a constructor
+[2025-05-21 08:55:02] error: 	Error in messageCreate ticket handler: Ticket is not defined
+[2025-05-21 08:56:07] error: 	Error in messageCreate ticket handler: Ticket validation failed: ticketId: Path `ticketId` is required., channelId: Path `channelId` is required.
+[2025-05-22 14:13:25] error: 	Failed to register commands: You are not authorized to perform this action on this application
+[2025-05-22 18:53:00] error: 	Uncaught Exception: Unknown interaction
+[2025-05-23 22:43:33] error: 	Error creating ticket for gwpx7pavitra in guild 1119589526738837605: createTicket is not a function

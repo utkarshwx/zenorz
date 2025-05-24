@@ -1,0 +1,231 @@
+[2025-05-18 13:46:03] error: 	uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+Error: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+    at Object.readdirSync (node:fs:1515:26)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\index.js:64:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+[2025-05-18 13:46:41] error: 	uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+Error: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+    at Object.readdirSync (node:fs:1515:26)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\index.js:64:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+[2025-05-18 13:48:39] error: 	uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+Error: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+    at Object.readdirSync (node:fs:1515:26)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\bot.js:40:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+[2025-05-18 13:52:03] error: 	uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+Error: ENOENT: no such file or directory, scandir 'C:\Users\KIIT\Documents\Projects\zenorz\events'
+    at Object.readdirSync (node:fs:1515:26)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\bot.js:40:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+[2025-05-18 19:32:30] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ButtonInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+[2025-05-20 00:44:11] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:45:24] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:46:24] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:47:16] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:48:35] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:53:22] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 00:54:53] error: 	uncaughtException: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/TicketSetup'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 09:02:53] error: 	uncaughtException: Cannot find module '../handlers/setupHandlers'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../handlers/setupHandlers'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup.js:7:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-20 13:53:43] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:143:17)
+[2025-05-21 05:01:56] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:143:17)
+[2025-05-21 08:39:52] error: 	uncaughtException: Unexpected token ':'
+C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:106
+                        createdAt: new Date(),
+                                 ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\bot.js:44:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+[2025-05-22 18:53:00] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ChatInputCommandInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:250:17)
