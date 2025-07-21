@@ -8,10 +8,6 @@ module.exports = {
     async execute(message) {
         if (message.author.bot || !message.guild) return;
 
-        if (message.author.id === 873125954959061002) {
-            if (message.content == 'hi zenorz') message.reply("Yes sir, How can I help you?")
-        }
-
         try {
             const guildConfig = await Guild.findOne({ guildId: message.guild.id });
             if (!guildConfig || !guildConfig.channels?.ticketChannel || !guildConfig.channels?.ticketRequests) return;
@@ -35,13 +31,18 @@ module.exports = {
                 status: { $in: ["pending", "open"] }
             });
 
+            const guildInfo = await Guild.findOne({
+                guildId: message.guild.id,
+            });
+
+            const supportRoles = await guildInfo?.supportTeamRoles[0];
+
             if (existingTicket) {
-                await message.author.send("❌ You already have an open or pending ticket. Please wait for support.");
+                await message.author.send("🛑 You already have an open or pending ticket.\nPlease wait patiently for our team to respond before creating a new one.");
                 await message.delete().catch(() => {});
                 return;
             }
 
-            // Create pending ticket
             const newTicket = await Ticket.create({
                 guildId: message.guild.id,
                 userId: message.author.id,
@@ -54,8 +55,8 @@ module.exports = {
 
             const embed = new EmbedBuilder()
                 .setTitle('🎟️ New Ticket Request')
-                .setDescription(`**User:** <@${message.author.id}> (${message.author.tag})\n**Message:** ${message.content}`)
-                .setColor('Blue')
+                .setDescription(`**▫️ User:** <@${message.author.id}> (${message.author.tag})\n**▫️ Issue:** \n \`\`\`${message.content}\`\`\``)
+                .setColor('Yellow')
                 .setTimestamp();
 
             const row = new ActionRowBuilder().addComponents(
@@ -72,10 +73,10 @@ module.exports = {
 
             await message.delete().catch(() => { });
 
-            await requestChannel.send({ content: `Staff, a new ticket request from <@${message.author.id}>`, embeds: [embed], components: [row] });
+            await requestChannel.send({ content: `<@&${supportRoles}> Alert: A new ticket request has been received from <@${message.author.id}>`, embeds: [embed], components: [row] });
 
             try {
-                await message.author.send(`✅ Your ticket request has been sent to our support team. Please wait for a response.`);
+                await message.author.send(`🟡 We've sent your request to our support team! Please hang tight — you'll hear from us soon.`);
             } catch {
                 // DMs disabled; ignore
             }

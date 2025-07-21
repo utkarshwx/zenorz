@@ -33,8 +33,8 @@ module.exports = {
     )
     .addIntegerOption(option =>
       option
-        .setName('auto_close_days')
-        .setDescription('Auto close ticket after X days (optional)')
+        .setName('auto_close_hours')
+        .setDescription('Auto close ticket after X hours (optional)')
     )
     .addBooleanOption(option =>
       option
@@ -58,7 +58,7 @@ module.exports = {
         ticketChannel: interaction.options.getChannel('channel')?.id,
         ticketCategory: interaction.options.getChannel('category')?.id || null,
         logChannel: interaction.options.getChannel('log_channel')?.id || null,
-        autoCloseAfterDays: interaction.options.getInteger('auto_close_days') || 7,
+        autoCloseAfterHours: interaction.options.getInteger('auto_close_hours') || 7,
         preventDuplicateTickets: interaction.options.getBoolean('prevent_duplicates') ?? true,
         useButton: interaction.options.getBoolean('use_button') ?? false,
       });

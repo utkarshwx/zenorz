@@ -14,7 +14,6 @@ const logFormat = printf(({ level, message, timestamp }) => {
   return `[${timestamp}] ${level}: ${message}`;
 });
 
-// Create logger instance
 const logger = createLogger({
   level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
   format: combine(
@@ -23,7 +22,7 @@ const logger = createLogger({
     logFormat
   ),
   transports: [
-    // Console output
+    
     new transports.Console({
       format: combine(
         colorize({ all: true }),

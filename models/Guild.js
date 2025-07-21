@@ -8,14 +8,23 @@ const guildSchema = new mongoose.Schema({
         ticketChannel: { type: String, default: null },
         ticketRequests: { type: String, default: null },
         ticketLogs: { type: String, default: null },
-        ticketCategory: { type: String, default: null},
+        ticketCategory: { type: String, default: null },
+        welcomeChannel: { type: String, default: null }
+    },
+
+    messages: {
+        ticketAcceptedm: { type: String, default: null },
+        ticketRejectedm: { type: String, default: null },
+        ticketMessagePendingm: { type: String, default: null },
     },
 
     supportTeamRoles: [{ type: String }],
     ticketCategory: { type: String },
     useButton: { type: Boolean, default: true },
 
-    autoCloseAfterDays: { type: Number, default: 7 },
+    welcomeMessages: [{type: String, default: null }],
+
+    autoCloseAfterHours: { type: Number, default: 7 },
     preventDuplicateTickets: { type: Boolean, default: true },
 
     premium: {

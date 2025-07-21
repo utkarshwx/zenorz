@@ -126,3 +126,13 @@
 [2025-05-22 14:13:25] error: 	Failed to register commands: You are not authorized to perform this action on this application
 [2025-05-22 18:53:00] error: 	Uncaught Exception: Unknown interaction
 [2025-05-23 22:43:33] error: 	Error creating ticket for gwpx7pavitra in guild 1119589526738837605: createTicket is not a function
+[2025-05-24 12:12:47] error: 	Uncaught Exception: Unknown interaction
+[2025-05-24 13:18:03] error: 	Uncaught Exception: Unknown interaction
+[2025-05-24 16:16:35] error: 	Unhandled Rejection: Unknown Channel
+[2025-05-24 17:01:42] error: 	Uncaught Exception: Unknown interaction
+[2025-05-24 17:12:47] error: 	Unhandled Rejection: Unknown Channel
+[2025-05-24 19:50:44] error: 	Error in messageCreate ticket handler: read ECONNRESET
+[2025-05-24 21:17:46] error: 	Error in messageCreate ticket handler: read ECONNRESET
+[2025-05-24 22:43:53] error: 	Unhandled Rejection: Unknown Channel
+[2025-06-29 17:51:49] error: 	Error in messageCreate ticket handler: read ECONNRESET
+[2025-07-01 16:46:38] error: 	Uncaught Exception: Opening handshake has timed out

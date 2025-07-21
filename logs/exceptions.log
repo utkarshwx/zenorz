@@ -229,3 +229,91 @@ DiscordAPIError[10062]: Unknown interaction
     at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
     at async ChatInputCommandInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
     at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:250:17)
+[2025-05-24 12:12:47] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ButtonInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:406:17)
+[2025-05-24 13:18:03] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ButtonInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:400:17)
+[2025-05-24 16:05:29] error: 	uncaughtException: Cannot find module 'react'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module 'react'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:12:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-24 17:01:42] error: 	uncaughtException: Unknown interaction
+DiscordAPIError[10062]: Unknown interaction
+    at handleErrors (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:748:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async BurstHandler.runRequest (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:852:23)
+    at async _REST.request (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\@discordjs\rest\dist\index.js:1293:22)
+    at async ButtonInteraction.reply (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:194:22)
+    at async Object.execute (C:\Users\KIIT\Documents\Projects\zenorz\events\interactionCreate.js:415:17)
+[2025-05-24 21:45:14] error: 	uncaughtException: Cannot find module '../../models/Guild'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\ticketsettings.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/Guild'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\ticketsettings.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\ticketsettings.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-05-25 01:25:22] error: 	uncaughtException: Cannot find module '../../models/Guild'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup-welcome.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+Error: Cannot find module '../../models/Guild'
+Require stack:
+- C:\Users\KIIT\Documents\Projects\zenorz\commands\setup-welcome.js
+- C:\Users\KIIT\Documents\Projects\zenorz\bot.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\commands\setup-welcome.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+[2025-07-01 16:46:38] error: 	uncaughtException: Opening handshake has timed out
+Error: Opening handshake has timed out
+    at ClientRequest.<anonymous> (C:\Users\KIIT\Documents\Projects\zenorz\node_modules\ws\lib\websocket.js:873:7)
+    at ClientRequest.emit (node:events:518:28)
+    at TLSSocket.emitRequestTimeout (node:_http_client:840:9)
+    at Object.onceWrapper (node:events:632:28)
+    at TLSSocket.emit (node:events:518:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)

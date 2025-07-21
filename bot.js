@@ -5,7 +5,6 @@ const { Client, Collection, GatewayIntentBits, Partials } = require('discord.js'
 const { connectDatabase } = require('./utils/database');
 const logger = require('./utils/logger');
 
-// Initialize the Discord client
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -16,10 +15,8 @@ const client = new Client({
   partials: [Partials.Channel, Partials.Message, Partials.Reaction],
 });
 
-// Create collections for commands
 client.commands = new Collection();
 
-// Load commands
 const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
@@ -35,7 +32,6 @@ for (const file of commandFiles) {
   }
 }
 
-// Load events
 const eventsPath = path.join(__dirname, 'events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
 
@@ -52,10 +48,8 @@ for (const file of eventFiles) {
   logger.info(`Loaded event: ${event.name}`);
 }
 
-// Ensure guild_data directory exists
 fs.ensureDirSync(path.join(__dirname, 'guild_data'));
 
-// Connect to the database and then log in to Discord
 (async () => {
   try {
     await connectDatabase();
@@ -68,7 +62,6 @@ fs.ensureDirSync(path.join(__dirname, 'guild_data'));
   }
 })();
 
-// Handle uncaught exceptions and unhandled promise rejections
 process.on('uncaughtException', (error) => {
   logger.error('Uncaught Exception:', error);
 });
@@ -77,4 +70,4 @@ process.on('unhandledRejection', (error) => {
   logger.error('Unhandled Rejection:', error);
 });
 
-module.exports = client; // Export client if needed elsewhere
+module.exports = client;

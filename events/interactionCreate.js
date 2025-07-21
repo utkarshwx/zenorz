@@ -1,9 +1,11 @@
 const {
     Events,
     PermissionFlagsBits,
+    PermissionsBitField,
     ChannelType,
     ButtonBuilder, ButtonStyle, ActionRowBuilder,
-    ModalBuilder, TextInputBuilder, TextInputStyle
+    ModalBuilder, TextInputBuilder, TextInputStyle,
+    MessageFlags
 } = require("discord.js");
 
 const Ticket = require("../models/Ticket");
@@ -39,24 +41,29 @@ module.exports = {
                 const [action, targetUserId] = customId.split(":");
                 const guildConfig = await Guild.findOne({ guildId: guild.id });
                 const member = await guild.members.fetch(user.id);
+                const supportTeamRoleList = guildConfig?.supportTeamRoles[0];
                 const isSupport = guildConfig?.supportTeamRoles?.some(roleId =>
                     member.roles.cache.has(roleId)
                 );
 
                 // === ACCEPT TICKET ===
                 if (action === "accept_ticket") {
-                    if (!isSupport) {
-                        return interaction.reply({
-                            content: "❌ You are not authorized to accept this ticket.",
-                            ephemeral: true,
-                        });
+                    if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
+
+                        if (!isSupport) {
+                            
+                            return interaction.reply({
+                                content: `You need to have the <@&${supportTeamRoleList}> role to use this action.`,
+                                flags: MessageFlags.Ephemeral,
+                            });
+                        }
                     }
 
                     const targetUser = await guild.members.fetch(targetUserId).catch(() => null);
                     if (!targetUser) {
                         return interaction.reply({
                             content: "❌ Could not find the user.",
-                            ephemeral: true,
+                            flags: MessageFlags.Ephemeral,
                         });
                     }
 
@@ -69,7 +76,7 @@ module.exports = {
                     if (!ticket) {
                         return interaction.reply({
                             content: "❌ No pending ticket found for this user.",
-                            ephemeral: true,
+                            flags: MessageFlags.Ephemeral,
                         });
                     }
 
@@ -87,74 +94,97 @@ module.exports = {
                     if (openTickets >= maxTickets) {
                         return interaction.reply({
                             content: `⚠️ This user has reached the ticket limit of ${maxTickets} for their current tier.`,
-                            ephemeral: true,
+                            flags: MessageFlags.Ephemeral,
                         });
                     }
 
-                    const ticketCategoryId = guildConfig?.category?.ticketCategory || null;
-                    const ticketChannelName = `${targetUser.user.username.toLowerCase()}-ticket`;
+                    await interaction.update({ flags: MessageFlags.Ephemeral });
 
-                    const ticketChannel = await guild.channels.create({
-                        name: ticketChannelName,
-                        type: ChannelType.GuildText,
-                        parent: ticketCategoryId,
-                        permissionOverwrites: [
-                            {
-                                id: guild.roles.everyone,
-                                deny: [PermissionFlagsBits.ViewChannel],
-                            },
-                            {
-                                id: targetUserId,
-                                allow: [PermissionFlagsBits.ViewChannel, PermissionFlagsBits.SendMessages, PermissionFlagsBits.ReadMessageHistory],
-                            },
-                            ...guildConfig.supportTeamRoles.map(roleId => ({
-                                id: roleId,
-                                allow: [PermissionFlagsBits.ViewChannel, PermissionFlagsBits.SendMessages, PermissionFlagsBits.ReadMessageHistory],
-                            })),
-                        ],
-                    });
+                    try {
+                        const ticketCategoryId = guildConfig?.channels?.ticketCategory || null;
+                        const ticketChannelName = `ticket-${targetUser.user.username.toLowerCase()}`;
 
-                    ticket.status = "open";
-                    ticket.channelId = ticketChannel.id;
-                    ticket.ticketId = ticketChannel.id;
-                    await ticket.save();
+                        const ticketChannel = await guild.channels.create({
+                            name: ticketChannelName,
+                            type: ChannelType.GuildText,
+                            parent: ticketCategoryId,
+                            permissionOverwrites: [
+                                {
+                                    id: guild.roles.everyone,
+                                    deny: [PermissionFlagsBits.ViewChannel],
+                                },
+                                {
+                                    id: targetUserId,
+                                    allow: [PermissionFlagsBits.ViewChannel, PermissionFlagsBits.SendMessages, PermissionFlagsBits.ReadMessageHistory, PermissionsBitField.Flags.AttachFiles],
+                                },
+                                ...guildConfig.supportTeamRoles.map(roleId => ({
+                                    id: roleId,
+                                    allow: [PermissionFlagsBits.ViewChannel, PermissionFlagsBits.SendMessages, PermissionFlagsBits.ReadMessageHistory, PermissionsBitField.Flags.AttachFiles, PermissionsBitField.Flags.UseApplicationCommands],
+                                })),
+                            ],
+                        });
 
-                    const closeButton = new ButtonBuilder()
-                        .setCustomId('close_ticket')
-                        .setLabel('Close Ticket')
-                        .setStyle(ButtonStyle.Danger)
-                        .setEmoji('🔒');
+                        ticket.status = "open";
+                        ticket.channelId = ticketChannel.id;
+                        ticket.ticketId = ticketChannel.id;
+                        await ticket.save();
 
-                    const row = new ActionRowBuilder().addComponents(closeButton);
+                        const closeButton = new ButtonBuilder()
+                            .setCustomId('close_ticket')
+                            .setLabel('Close Ticket')
+                            .setStyle(ButtonStyle.Danger)
+                            .setEmoji('🔒');
 
-                    const acceptanceMessage = premiumTier === "free"
-                        ? `🎟️ Ticket accepted for <@${targetUserId}>`
-                        : `🎟️ Ticket accepted for <@${targetUserId}>\n👤 Accepted by: <@${user.id}>`;
+                        const row = new ActionRowBuilder().addComponents(closeButton);
 
-                    await ticketChannel.send({
-                        content: acceptanceMessage,
-                        components: [row],
-                    });
+                        const acceptanceMessage = `Hey there <@${targetUserId}>, your ticket has been accepted by <@${interaction.user.id}>!\n Share your issue below, and our team will help you out as best as we can.`;
 
-                    await ticketChannel.send({
-                        content: ticket.query || "No message provided.",
-                    });
+                        await ticketChannel.send({
+                            content: acceptanceMessage,
+                            components: [row],
+                        });
 
-                    await interaction.reply({
-                        content: `✅ Ticket accepted and moved to ${ticketChannel}`,
-                        ephemeral: true,
-                    });
+                        const ticketQueryMessage = `▫️ Issue: \n \`\`\`${ticket.query}\`\`\``
 
-                    if (targetUser) {
+                        await ticketChannel.send({
+                            content: ticketQueryMessage || "No message provided.",
+                        });
+
+                        const originalMessage = await interaction.message.fetch();
+                        const existingEmbed = originalMessage.embeds?.[0];
+
+                        const newDescription = `${existingEmbed?.description || ""}\n\n✅ **Accepted by <@${interaction.user.id}>**`;
+
+                        const updatedEmbed = {
+                            ...existingEmbed?.toJSON(),
+                            description: newDescription,
+                            color: 0x00a884,
+                            timestamp: new Date().toISOString(),
+                        };
+
+                        await interaction.editReply({
+                            content: `✅ Ticket accepted by <@${user.id}> and moved to ${ticketChannel}`,
+                            embeds: [updatedEmbed],
+                            components: [],
+                        });
+
                         try {
-                            await targetUser.send(`✅ Your ticket request was accepted by <@${user.id}>.`);
-                        } catch (_) { /* DMs off */ }
-                    }
+                            await targetUser.send(`🟢 Your ticket request has been accepted by <@${user.id}>. \nPlease head over to <#${ticketChannel.id}> to continue the conversation`);
+                        } catch (_) {
+                            // DMs are closed
+                        }
 
-                    const logChannel = guild.channels.cache.get(guildConfig?.channels?.logChannel);
-                    if (logChannel) {
-                        await logChannel.send({
-                            content: `📌 Ticket \`${ticketChannel.name}\` accepted by <@${user.id}>.`,
+                        const logChannel = guild.channels.cache.get(guildConfig?.channels?.logChannel);
+                        if (logChannel) {
+                            await logChannel.send({
+                                content: `📌 Ticket \`${ticketChannel.name}\` accepted by <@${user.id}>.`,
+                            });
+                        }
+
+                    } catch (err) {
+                        console.error("Ticket accept error:", err);
+                        await interaction.editReply({
+                            content: "❌ Something went wrong while accepting the ticket.",
                         });
                     }
 
@@ -163,11 +193,15 @@ module.exports = {
 
                 // === REJECT TICKET ===
                 if (action === "reject_ticket") {
-                    if (!isSupport) {
-                        return interaction.reply({
-                            content: "❌ You are not authorized to reject this ticket.",
-                            ephemeral: true,
-                        });
+
+                    if (!interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)){
+
+                        if (!isSupport) {
+                            return interaction.reply({
+                                content: `You need to have the <@&${supportTeamRoleList}> role to use this action.`,
+                                ephemeral: true,
+                            });
+                        }
                     }
 
                     const isPremium = ["pro", "elite"].includes(guildConfig?.premium?.tier);
@@ -247,7 +281,7 @@ module.exports = {
                     }
 
                     await interaction.reply({
-                        content: "🛑 Ticket will be closed in 1 Minute...",
+                        content: "🛑 Ticket will be closed soon...",
                         ephemeral: true,
                     });
 
@@ -339,10 +373,11 @@ module.exports = {
 
             // === MODAL SUBMISSION HANDLER ===
             if (interaction.isModalSubmit()) {
-                const {guild} = interaction;
+                const { guild } = interaction;
                 const guildConfig = await Guild.findOne({ guildId: guild.id });
                 const [modalAction, targetUserId] = interaction.customId.split(":");
                 if (modalAction === "reject_reason_modal") {
+
                     const reason = interaction.fields.getTextInputValue("rejection_reason");
 
                     const ticket = await Ticket.findOne({
@@ -367,7 +402,7 @@ module.exports = {
                     if (targetUser) {
                         try {
                             await targetUser.send({
-                                content: `❌ Your ticket request was rejected by <@${interaction.user.id}>.\n**Reason:** ${reason}`,
+                                content: `🔴 Unfortunately, your ticket was rejected by <@${interaction.user.id}>.\n**Reason:** ${reason}`,
                             });
                         } catch (_) { /* DMs closed */ }
                     }

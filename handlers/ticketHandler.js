@@ -7,22 +7,28 @@ async function getGuildConfig(guildId) {
     return await Guild.findOne({ guildId });
 }
 
-// Create a new ticket channel for the user after approval
 async function createTicketChannel(guild, user, guildConfig, query) {
     const { channels, supportTeamRoles } = guildConfig;
-    const ticketCategoryId = channels.ticketChannel
-        ? (await guild.channels.fetch(channels.ticketChannel))?.parentId
-        : null;
+    const ticketCategoryId = channels.ticketCategory;
+
+    // Validate if the category exists and is of correct type
+    const categoryChannel = guild.channels.cache.get(ticketCategoryId);
+    const isValidCategory = categoryChannel && categoryChannel.type === ChannelType.GuildCategory;
+    console.log(categoryChannel);
+    console.log(isValidCategory);
+
+    if (!isValidCategory) {
+        console.warn(`⚠️ Ticket category "${ticketCategoryId}" is invalid or not found. Channel will be created without category.`);
+    }
 
     // Compose a unique channel name: username-ticket (lowercase, sanitized)
     const safeUsername = user.username.toLowerCase().replace(/[^a-zA-Z0-9-_]/g, '');
     const channelName = `${safeUsername}-ticket`;
 
-    // Create ticket channel inside category if possible
     const ticketChannel = await guild.channels.create({
         name: channelName,
         type: ChannelType.GuildText,
-        parent: ticketCategoryId || undefined,
+        parent: isValidCategory ? ticketCategoryId : undefined,
         permissionOverwrites: [
             {
                 id: guild.roles.everyone.id,
@@ -30,11 +36,22 @@ async function createTicketChannel(guild, user, guildConfig, query) {
             },
             ...supportTeamRoles.map(roleId => ({
                 id: roleId,
-                allow: [PermissionsBitField.Flags.ViewChannel, PermissionsBitField.Flags.SendMessages, PermissionsBitField.Flags.ReadMessageHistory],
+                allow: [
+                    PermissionsBitField.Flags.ViewChannel,
+                    PermissionsBitField.Flags.SendMessages,
+                    PermissionsBitField.Flags.ReadMessageHistory,
+                    PermissionsBitField.Flags.AttachFiles,
+                    PermissionsBitField.Flags.UseApplicationCommands
+                ],
             })),
             {
                 id: user.id,
-                allow: [PermissionsBitField.Flags.ViewChannel, PermissionsBitField.Flags.SendMessages, PermissionsBitField.Flags.ReadMessageHistory],
+                allow: [
+                    PermissionsBitField.Flags.ViewChannel,
+                    PermissionsBitField.Flags.SendMessages,
+                    PermissionsBitField.Flags.ReadMessageHistory,
+                    PermissionsBitField.Flags.AttachFiles
+                ],
             },
         ],
         reason: `Ticket channel created for ${user.tag}`,
@@ -49,19 +66,18 @@ async function createTicketChannel(guild, user, guildConfig, query) {
         status: 'open',
         query,
     });
+
     await newTicket.save();
 
     return ticketChannel;
 }
 
-// Handle a ticket request (e.g., a command or message in ticketRequests channel)
 async function handleTicketRequest(interaction) {
     const guildConfig = await getGuildConfig(interaction.guild.id);
     if (!guildConfig) {
         return interaction.reply({ content: 'Ticket system not set up yet.', ephemeral: true });
     }
 
-    // Check if the request came from ticketRequests channel or other logic
     if (interaction.channel.id !== guildConfig.channels.ticketRequests) {
         return interaction.reply({ content: 'Please use the ticket requests channel.', ephemeral: true });
     }
@@ -69,7 +85,6 @@ async function handleTicketRequest(interaction) {
     const user = interaction.user;
     const query = interaction.options.getString('query') || 'No query provided';
 
-    // Check if user has too many open tickets (for free tier, limit 10)
     const openTicketsCount = await Ticket.countDocuments({
         guildId: interaction.guild.id,
         userId: user.id,
@@ -77,16 +92,17 @@ async function handleTicketRequest(interaction) {
     });
 
     if (guildConfig.premium?.tier === 'free' && openTicketsCount >= 10) {
-        return interaction.reply({ content: 'You have reached the maximum of 10 open tickets. Please close some before opening new ones.', ephemeral: true });
+        return interaction.reply({
+            content: 'You have reached the maximum of 10 open tickets. Please close some before opening new ones.',
+            ephemeral: true
+        });
     }
 
-    // Create a message to staff for approval - this would be done via your bot's internal logic,
-    // e.g., sending a message with buttons Accept / Reject in the ticketRequests channel for staff
-
-    // For demo, just reply (replace with your actual approval logic)
-    return interaction.reply({ content: `Ticket request received. Staff will review it shortly. Your query: "${query}"`, ephemeral: true });
+    // Notify staff for approval (this should ideally send a message with Accept/Reject buttons)
+    return interaction.reply({
+        content: `🎫 Ticket request received. Staff will review it shortly.\n**Your query:** "${query}"`,
+        ephemeral: true
+    });
 }
-
-// Callbacks for staff to approve/reject requests will call createTicketChannel or send rejection DMs
 
 module.exports = { createTicketChannel, handleTicketRequest };

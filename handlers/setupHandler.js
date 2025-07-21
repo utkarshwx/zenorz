@@ -19,7 +19,7 @@ const setupGuild = async (interaction, rawOpts = {}) => {
         ticketRequestsChannel: null,
         logChannel: null,
         useButton: true,
-        autoCloseAfterDays: 7,
+        autoCloseAfterHours: 7,
         preventDuplicateTickets: true,
         ...rawOpts,
     };
@@ -160,9 +160,10 @@ const setupGuild = async (interaction, rawOpts = {}) => {
         ticketChannel: ticketChannel ? ticketChannel.id : null,
         ticketRequests: ticketRequestsChannel ? ticketRequestsChannel.id : null,
         ticketLogs: logChannel ? logChannel.id : null,
+        ticketCategory: categoryChannel ? categoryChannel.id : null,
     };
     guildConfig.useButton = Boolean(opts.useButton);
-    guildConfig.autoCloseAfterDays = opts.autoCloseAfterDays || 7;
+    guildConfig.autoCloseAfterHours = opts.autoCloseAfterHours || 7;
     guildConfig.preventDuplicateTickets = opts.preventDuplicateTickets !== false;
     guildConfig.setupCompleted = true;
     guildConfig.updatedAt = new Date();
