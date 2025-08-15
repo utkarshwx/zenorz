@@ -136,3 +136,7 @@
 [2025-05-24 22:43:53] error: 	Unhandled Rejection: Unknown Channel
 [2025-06-29 17:51:49] error: 	Error in messageCreate ticket handler: read ECONNRESET
 [2025-07-01 16:46:38] error: 	Uncaught Exception: Opening handshake has timed out
+[2025-07-21 18:27:06] error: 	Error in messageCreate ticket handler: read ECONNRESET
+[2025-07-23 21:46:38] error: 	Uncaught Exception: Unknown interaction
+[2025-08-10 00:11:42] error: 	Uncaught Exception: require() of ES Module C:\Users\KIIT\Documents\Projects\zenorz\node_modules\node-fetch\src\index.js from C:\Users\KIIT\Documents\Projects\zenorz\backend\oauth.js not supported.
+Instead change the require of index.js in C:\Users\KIIT\Documents\Projects\zenorz\backend\oauth.js to a dynamic import() which is available in all CommonJS modules.

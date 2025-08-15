@@ -15,7 +15,7 @@ const guildSchema = new mongoose.Schema({
     messages: {
         ticketAcceptedm: { type: String, default: null },
         ticketRejectedm: { type: String, default: null },
-        ticketMessagePendingm: { type: String, default: null },
+        ticketMessagePendingdm: { type: String, default: null },
     },
 
     supportTeamRoles: [{ type: String }],

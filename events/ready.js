@@ -14,8 +14,8 @@ module.exports = {
 
       // Set bot presence (activity and status)
       await client.user.setPresence({
-        activities: [{ name: '/ticket', type: ActivityType.Watching }],
-        status: 'online',
+        activities: [{ name: 'Limited performance due to testing and pushing code', type: ActivityType.Custom }],
+        status: 'idle',
       });
       logger.info('Presence set to Watching /ticket');
 

@@ -10172,3 +10172,1078 @@
 [2025-07-05 22:19:48] info: 	MongoDB reconnected
 [2025-07-05 22:21:11] warn: 	MongoDB disconnected. Attempting to reconnect...
 [2025-07-05 22:21:14] info: 	MongoDB reconnected
+[2025-07-21 07:55:16] info: 	Loaded command: add-into-ticket
+[2025-07-21 07:55:16] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-07-21 07:55:16] info: 	Loaded command: remove-from-ticket
+[2025-07-21 07:55:16] info: 	Loaded command: setup
+[2025-07-21 07:55:16] info: 	Loaded command: setup-welcome
+[2025-07-21 07:55:16] info: 	Loaded command: upload-info
+[2025-07-21 07:55:16] info: 	Loaded event: guildMemberAdd
+[2025-07-21 07:55:16] info: 	Loaded event: interactionCreate
+[2025-07-21 07:55:16] info: 	Loaded event: messageCreate
+[2025-07-21 07:55:16] info: 	Loaded event: ready
+[2025-07-21 07:55:17] info: 	Successfully connected to MongoDB
+[2025-07-21 07:55:17] info: 	Database connected successfully.
+[2025-07-21 07:55:18] info: 	Discord client logged in successfully.
+[2025-07-21 07:55:21] info: 	Logged in as ZenorZ#5937
+[2025-07-21 07:55:21] info: 	Presence set to Watching /ticket
+[2025-07-21 07:55:21] debug: 	Loaded command for registration: add-into-ticket
+[2025-07-21 07:55:21] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-07-21 07:55:21] debug: 	Loaded command for registration: remove-from-ticket
+[2025-07-21 07:55:21] debug: 	Loaded command for registration: setup
+[2025-07-21 07:55:21] debug: 	Loaded command for registration: setup-welcome
+[2025-07-21 07:55:21] debug: 	Loaded command for registration: upload-info
+[2025-07-21 07:55:21] info: 	Refreshing 5 application (/) commands.
+[2025-07-21 07:55:21] info: 	Successfully registered application commands globally.
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1355908932463497327 (BUND PHARDO MODRETORS)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1319338225986441236 (『EDITOR'S DOMAIN® ~ MOTAXY🎼』)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1396540447832412190 (Lapata STAFF)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-07-21 07:55:21] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-07-21 07:55:21] info: 	Bot is ready and all setup done!
+[2025-07-21 11:34:45] info: 	MongoDB reconnected
+[2025-07-21 18:27:06] error: 	Error in messageCreate ticket handler: read ECONNRESET
+[2025-07-21 18:28:01] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-21 18:28:10] info: 	MongoDB reconnected
+[2025-07-21 20:52:20] info: 	MongoDB reconnected
+[2025-07-21 20:52:20] info: 	MongoDB reconnected
+[2025-07-21 20:52:30] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-21 20:52:31] info: 	MongoDB reconnected
+[2025-07-21 20:56:11] info: 	MongoDB reconnected
+[2025-07-21 20:56:11] info: 	MongoDB reconnected
+[2025-07-22 01:32:20] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-22 01:32:43] info: 	MongoDB reconnected
+[2025-07-22 02:30:07] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-22 02:30:17] info: 	MongoDB reconnected
+[2025-07-22 11:19:40] info: 	MongoDB reconnected
+[2025-07-22 20:11:18] info: 	Ticket request forwarded by angrychiklu in guild 765610879131582474
+[2025-07-23 02:42:07] info: 	MongoDB reconnected
+[2025-07-23 07:47:15] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-23 07:47:15] info: 	MongoDB reconnected
+[2025-07-23 10:49:22] info: 	MongoDB reconnected
+[2025-07-23 10:49:22] info: 	MongoDB reconnected
+[2025-07-23 18:54:40] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-23 18:54:40] info: 	MongoDB reconnected
+[2025-07-23 20:13:35] info: 	Ticket request forwarded by angrychiklu in guild 765610879131582474
+[2025-07-23 20:37:51] info: 	MongoDB reconnected
+[2025-07-23 20:38:01] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-23 20:38:01] info: 	MongoDB reconnected
+[2025-07-23 21:46:38] error: 	Uncaught Exception: Unknown interaction
+[2025-07-24 19:16:13] info: 	Loaded command: add-into-ticket
+[2025-07-24 19:16:13] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-07-24 19:16:13] info: 	Loaded command: remove-from-ticket
+[2025-07-24 19:16:13] info: 	Loaded command: setup
+[2025-07-24 19:16:13] info: 	Loaded command: setup-welcome
+[2025-07-24 19:16:13] info: 	Loaded command: upload-info
+[2025-07-24 19:16:13] info: 	Loaded event: guildMemberAdd
+[2025-07-24 19:16:13] info: 	Loaded event: interactionCreate
+[2025-07-24 19:16:13] info: 	Loaded event: messageCreate
+[2025-07-24 19:16:13] info: 	Loaded event: ready
+[2025-07-24 19:16:14] info: 	Successfully connected to MongoDB
+[2025-07-24 19:16:14] info: 	Database connected successfully.
+[2025-07-24 19:16:15] info: 	Discord client logged in successfully.
+[2025-07-24 19:16:18] info: 	Logged in as ZenorZ#5937
+[2025-07-24 19:16:18] info: 	Presence set to Watching /ticket
+[2025-07-24 19:16:18] debug: 	Loaded command for registration: add-into-ticket
+[2025-07-24 19:16:18] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-07-24 19:16:18] debug: 	Loaded command for registration: remove-from-ticket
+[2025-07-24 19:16:18] debug: 	Loaded command for registration: setup
+[2025-07-24 19:16:18] debug: 	Loaded command for registration: setup-welcome
+[2025-07-24 19:16:18] debug: 	Loaded command for registration: upload-info
+[2025-07-24 19:16:18] info: 	Refreshing 5 application (/) commands.
+[2025-07-24 19:16:19] info: 	Successfully registered application commands globally.
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1391434875873132585 (CrownNetwork | MC | Community)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1355908932463497327 (BUND PHARDO MODRETORS)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1319338225986441236 (『EDITOR'S DOMAIN® ~ MOTAXY🎼』)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1396540447832412190 (Lapata STAFF)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-07-24 19:16:19] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-07-24 19:16:19] info: 	Bot is ready and all setup done!
+[2025-07-25 02:02:24] info: 	MongoDB reconnected
+[2025-07-25 02:02:35] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-25 02:02:35] info: 	MongoDB reconnected
+[2025-07-25 18:33:55] info: 	MongoDB reconnected
+[2025-07-25 19:14:01] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-25 19:14:01] info: 	MongoDB reconnected
+[2025-07-25 21:09:56] info: 	Ticket request forwarded by angrychiklu in guild 765610879131582474
+[2025-07-25 23:04:44] info: 	MongoDB reconnected
+[2025-07-25 23:04:53] info: 	MongoDB reconnected
+[2025-07-25 23:05:44] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-25 23:05:44] info: 	MongoDB reconnected
+[2025-07-25 23:38:26] info: 	Ticket request forwarded by kvx1562 in guild 765610879131582474
+[2025-07-26 00:08:08] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-26 00:08:19] info: 	MongoDB reconnected
+[2025-07-26 13:43:47] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-26 13:44:06] info: 	MongoDB reconnected
+[2025-07-26 15:42:04] info: 	MongoDB reconnected
+[2025-07-26 15:42:04] info: 	MongoDB reconnected
+[2025-07-26 19:12:46] info: 	MongoDB reconnected
+[2025-07-26 19:12:46] info: 	MongoDB reconnected
+[2025-07-26 19:13:17] warn: 	MongoDB disconnected. Attempting to reconnect...
+[2025-07-26 19:13:17] info: 	MongoDB reconnected
+[2025-08-10 00:11:42] error: 	Uncaught Exception: require() of ES Module C:\Users\KIIT\Documents\Projects\zenorz\node_modules\node-fetch\src\index.js from C:\Users\KIIT\Documents\Projects\zenorz\backend\oauth.js not supported.
+Instead change the require of index.js in C:\Users\KIIT\Documents\Projects\zenorz\backend\oauth.js to a dynamic import() which is available in all CommonJS modules.
+[2025-08-10 00:14:13] info: 	Successfully connected to MongoDB
+[2025-08-10 00:14:13] info: 	Database connected successfully.
+[2025-08-10 00:14:13] info: 	Loaded command: add-into-ticket
+[2025-08-10 00:14:13] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-10 00:14:13] info: 	Loaded command: remove-from-ticket
+[2025-08-10 00:14:13] info: 	Loaded command: setup
+[2025-08-10 00:14:13] info: 	Loaded command: setup-welcome
+[2025-08-10 00:14:13] info: 	Loaded command: upload-info
+[2025-08-10 00:14:13] info: 	Loaded event: guildMemberAdd
+[2025-08-10 00:14:13] info: 	Loaded event: interactionCreate
+[2025-08-10 00:14:13] info: 	Loaded event: messageCreate
+[2025-08-10 00:14:13] info: 	Loaded event: ready
+[2025-08-10 00:14:14] info: 	Discord client logged in successfully.
+[2025-08-10 00:14:14] info: 	Backend running at http://localhost:3000
+[2025-08-10 00:14:16] info: 	Logged in as ZenorZ#5937
+[2025-08-10 00:14:16] info: 	Presence set to Watching /ticket
+[2025-08-10 00:14:16] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-10 00:14:16] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-10 00:14:16] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-10 00:14:16] debug: 	Loaded command for registration: setup
+[2025-08-10 00:14:16] debug: 	Loaded command for registration: setup-welcome
+[2025-08-10 00:14:16] debug: 	Loaded command for registration: upload-info
+[2025-08-10 00:14:16] info: 	Refreshing 5 application (/) commands.
+[2025-08-10 00:14:17] info: 	Successfully registered application commands globally.
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1391434875873132585 (ʟᴇᴀғ  |  ᴄʜɪʟʟ  |  ᴄᴏᴍᴍᴜɴɪᴛʏ)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-10 00:14:17] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-10 00:14:17] info: 	Bot is ready and all setup done!
+[2025-08-10 00:19:15] info: 	Successfully connected to MongoDB
+[2025-08-10 00:19:15] info: 	Database connected successfully.
+[2025-08-10 00:19:15] info: 	Loaded command: add-into-ticket
+[2025-08-10 00:19:15] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-10 00:19:15] info: 	Loaded command: remove-from-ticket
+[2025-08-10 00:19:15] info: 	Loaded command: setup
+[2025-08-10 00:19:15] info: 	Loaded command: setup-welcome
+[2025-08-10 00:19:15] info: 	Loaded command: upload-info
+[2025-08-10 00:19:15] info: 	Loaded event: guildMemberAdd
+[2025-08-10 00:19:15] info: 	Loaded event: interactionCreate
+[2025-08-10 00:19:15] info: 	Loaded event: messageCreate
+[2025-08-10 00:19:15] info: 	Loaded event: ready
+[2025-08-10 00:19:16] info: 	Discord client logged in successfully.
+[2025-08-10 00:19:16] info: 	Backend running at http://localhost:3000
+[2025-08-10 00:19:18] info: 	Logged in as ZenorZ#5937
+[2025-08-10 00:19:18] info: 	Presence set to Watching /ticket
+[2025-08-10 00:19:18] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-10 00:19:18] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-10 00:19:18] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-10 00:19:18] debug: 	Loaded command for registration: setup
+[2025-08-10 00:19:18] debug: 	Loaded command for registration: setup-welcome
+[2025-08-10 00:19:18] debug: 	Loaded command for registration: upload-info
+[2025-08-10 00:19:18] info: 	Refreshing 5 application (/) commands.
+[2025-08-10 00:19:19] info: 	Successfully registered application commands globally.
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1391434875873132585 (ʟᴇᴀғ  |  ᴄʜɪʟʟ  |  ᴄᴏᴍᴍᴜɴɪᴛʏ)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-10 00:19:19] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-10 00:19:19] info: 	Bot is ready and all setup done!
+[2025-08-10 01:17:08] info: 	Successfully connected to MongoDB
+[2025-08-10 01:17:08] info: 	Database connected successfully.
+[2025-08-10 01:17:08] info: 	Loaded command: add-into-ticket
+[2025-08-10 01:17:08] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-10 01:17:08] info: 	Loaded command: remove-from-ticket
+[2025-08-10 01:17:08] info: 	Loaded command: setup
+[2025-08-10 01:17:08] info: 	Loaded command: setup-welcome
+[2025-08-10 01:17:08] info: 	Loaded command: upload-info
+[2025-08-10 01:17:08] info: 	Loaded event: guildMemberAdd
+[2025-08-10 01:17:08] info: 	Loaded event: interactionCreate
+[2025-08-10 01:17:08] info: 	Loaded event: messageCreate
+[2025-08-10 01:17:08] info: 	Loaded event: ready
+[2025-08-10 01:17:09] info: 	Discord client logged in successfully.
+[2025-08-10 01:17:09] info: 	Backend running at http://localhost:3000
+[2025-08-10 01:17:11] info: 	Logged in as ZenorZ#5937
+[2025-08-10 01:17:11] info: 	Presence set to Watching /ticket
+[2025-08-10 01:17:11] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-10 01:17:11] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-10 01:17:11] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-10 01:17:11] debug: 	Loaded command for registration: setup
+[2025-08-10 01:17:11] debug: 	Loaded command for registration: setup-welcome
+[2025-08-10 01:17:11] debug: 	Loaded command for registration: upload-info
+[2025-08-10 01:17:11] info: 	Refreshing 5 application (/) commands.
+[2025-08-10 01:17:12] info: 	Successfully registered application commands globally.
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1391434875873132585 (ʟᴇᴀғ  |  ᴄʜɪʟʟ  |  ᴄᴏᴍᴍᴜɴɪᴛʏ)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-10 01:17:12] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-10 01:17:12] info: 	Bot is ready and all setup done!
+[2025-08-15 10:00:24] info: 	Successfully connected to MongoDB
+[2025-08-15 10:00:24] info: 	Database connected successfully.
+[2025-08-15 10:00:24] info: 	Loaded command: add-into-ticket
+[2025-08-15 10:00:24] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-15 10:00:24] info: 	Loaded command: remove-from-ticket
+[2025-08-15 10:00:24] info: 	Loaded command: setup
+[2025-08-15 10:00:24] info: 	Loaded command: setup-welcome
+[2025-08-15 10:00:24] info: 	Loaded command: upload-info
+[2025-08-15 10:00:24] info: 	Loaded event: guildMemberAdd
+[2025-08-15 10:00:24] info: 	Loaded event: interactionCreate
+[2025-08-15 10:00:24] info: 	Loaded event: messageCreate
+[2025-08-15 10:00:24] info: 	Loaded event: ready
+[2025-08-15 10:00:26] info: 	Discord client logged in successfully.
+[2025-08-15 10:00:26] info: 	Backend running at http://localhost:3000
+[2025-08-15 10:00:28] info: 	Logged in as ZenorZ#5937
+[2025-08-15 10:00:28] info: 	Presence set to Watching /ticket
+[2025-08-15 10:00:28] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-15 10:00:28] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-15 10:00:28] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-15 10:00:28] debug: 	Loaded command for registration: setup
+[2025-08-15 10:00:28] debug: 	Loaded command for registration: setup-welcome
+[2025-08-15 10:00:28] debug: 	Loaded command for registration: upload-info
+[2025-08-15 10:00:28] info: 	Refreshing 5 application (/) commands.
+[2025-08-15 10:00:29] info: 	Successfully registered application commands globally.
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1391434875873132585 (Leaf)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-15 10:00:29] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-15 10:00:29] info: 	Bot is ready and all setup done!
+[2025-08-15 10:26:46] info: 	Successfully connected to MongoDB
+[2025-08-15 10:26:46] info: 	Database connected successfully.
+[2025-08-15 10:26:46] info: 	Loaded command: add-into-ticket
+[2025-08-15 10:26:46] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-15 10:26:46] info: 	Loaded command: remove-from-ticket
+[2025-08-15 10:26:46] info: 	Loaded command: setup
+[2025-08-15 10:26:46] info: 	Loaded command: setup-welcome
+[2025-08-15 10:26:46] info: 	Loaded command: upload-info
+[2025-08-15 10:26:46] info: 	Loaded event: guildMemberAdd
+[2025-08-15 10:26:46] info: 	Loaded event: interactionCreate
+[2025-08-15 10:26:46] info: 	Loaded event: messageCreate
+[2025-08-15 10:26:46] info: 	Loaded event: ready
+[2025-08-15 10:26:48] info: 	Discord client logged in successfully.
+[2025-08-15 10:26:48] info: 	Backend running at http://localhost:3000
+[2025-08-15 10:26:50] info: 	Logged in as ZenorZ#5937
+[2025-08-15 10:26:50] info: 	Presence set to Watching /ticket
+[2025-08-15 10:26:50] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-15 10:26:50] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-15 10:26:50] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-15 10:26:50] debug: 	Loaded command for registration: setup
+[2025-08-15 10:26:50] debug: 	Loaded command for registration: setup-welcome
+[2025-08-15 10:26:50] debug: 	Loaded command for registration: upload-info
+[2025-08-15 10:26:50] info: 	Refreshing 5 application (/) commands.
+[2025-08-15 10:26:51] info: 	Successfully registered application commands globally.
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1391434875873132585 (Leaf)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-15 10:26:51] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-15 10:26:51] info: 	Bot is ready and all setup done!
+[2025-08-15 10:27:36] info: 	Successfully connected to MongoDB
+[2025-08-15 10:27:36] info: 	Database connected successfully.
+[2025-08-15 10:27:36] info: 	Loaded command: add-into-ticket
+[2025-08-15 10:27:36] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-15 10:27:36] info: 	Loaded command: remove-from-ticket
+[2025-08-15 10:27:36] info: 	Loaded command: setup
+[2025-08-15 10:27:36] info: 	Loaded command: setup-welcome
+[2025-08-15 10:27:36] info: 	Loaded command: upload-info
+[2025-08-15 10:27:36] info: 	Loaded event: guildMemberAdd
+[2025-08-15 10:27:36] info: 	Loaded event: interactionCreate
+[2025-08-15 10:27:36] info: 	Loaded event: messageCreate
+[2025-08-15 10:27:36] info: 	Loaded event: ready
+[2025-08-15 10:27:37] info: 	Discord client logged in successfully.
+[2025-08-15 10:27:38] info: 	Backend running at http://localhost:3000
+[2025-08-15 10:27:39] info: 	Logged in as ZenorZ#5937
+[2025-08-15 10:27:39] info: 	Presence set to Watching /ticket
+[2025-08-15 10:27:39] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-15 10:27:39] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-15 10:27:39] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-15 10:27:39] debug: 	Loaded command for registration: setup
+[2025-08-15 10:27:39] debug: 	Loaded command for registration: setup-welcome
+[2025-08-15 10:27:39] debug: 	Loaded command for registration: upload-info
+[2025-08-15 10:27:39] info: 	Refreshing 5 application (/) commands.
+[2025-08-15 10:27:40] info: 	Successfully registered application commands globally.
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1391434875873132585 (Leaf)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-15 10:27:40] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-15 10:27:40] info: 	Bot is ready and all setup done!
+[2025-08-15 10:28:14] info: 	Successfully connected to MongoDB
+[2025-08-15 10:28:14] info: 	Database connected successfully.
+[2025-08-15 10:28:14] info: 	Loaded command: add-into-ticket
+[2025-08-15 10:28:14] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-15 10:28:14] info: 	Loaded command: remove-from-ticket
+[2025-08-15 10:28:14] info: 	Loaded command: setup
+[2025-08-15 10:28:14] info: 	Loaded command: setup-welcome
+[2025-08-15 10:28:14] info: 	Loaded command: upload-info
+[2025-08-15 10:28:14] info: 	Loaded event: guildMemberAdd
+[2025-08-15 10:28:14] info: 	Loaded event: interactionCreate
+[2025-08-15 10:28:14] info: 	Loaded event: messageCreate
+[2025-08-15 10:28:14] info: 	Loaded event: ready
+[2025-08-15 10:28:15] info: 	Discord client logged in successfully.
+[2025-08-15 10:28:15] info: 	Backend running at http://localhost:3000
+[2025-08-15 10:28:17] info: 	Logged in as ZenorZ#5937
+[2025-08-15 10:28:17] info: 	Presence set to Watching /ticket
+[2025-08-15 10:28:17] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-15 10:28:17] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-15 10:28:17] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-15 10:28:17] debug: 	Loaded command for registration: setup
+[2025-08-15 10:28:17] debug: 	Loaded command for registration: setup-welcome
+[2025-08-15 10:28:17] debug: 	Loaded command for registration: upload-info
+[2025-08-15 10:28:17] info: 	Refreshing 5 application (/) commands.
+[2025-08-15 10:28:18] info: 	Successfully registered application commands globally.
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1391434875873132585 (Leaf)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-15 10:28:18] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-15 10:28:18] info: 	Bot is ready and all setup done!
+[2025-08-15 12:31:57] info: 	Successfully connected to MongoDB
+[2025-08-15 12:31:57] info: 	Database connected successfully.
+[2025-08-15 12:31:57] info: 	Loaded command: add-into-ticket
+[2025-08-15 12:31:57] warn: 	Command at C:\Users\KIIT\Documents\Projects\zenorz\commands\config-ticket-system.js is missing required "data" or "execute" property
+[2025-08-15 12:31:57] info: 	Loaded command: remove-from-ticket
+[2025-08-15 12:31:57] info: 	Loaded command: setup
+[2025-08-15 12:31:57] info: 	Loaded command: setup-welcome
+[2025-08-15 12:31:57] info: 	Loaded command: upload-info
+[2025-08-15 12:31:57] info: 	Loaded event: guildMemberAdd
+[2025-08-15 12:31:57] info: 	Loaded event: interactionCreate
+[2025-08-15 12:31:57] info: 	Loaded event: messageCreate
+[2025-08-15 12:31:57] info: 	Loaded event: ready
+[2025-08-15 12:31:58] info: 	Discord client logged in successfully.
+[2025-08-15 12:31:58] info: 	Backend running at http://localhost:3000
+[2025-08-15 12:32:00] info: 	Logged in as ZenorZ#5937
+[2025-08-15 12:32:00] info: 	Presence set to Watching /ticket
+[2025-08-15 12:32:00] debug: 	Loaded command for registration: add-into-ticket
+[2025-08-15 12:32:00] warn: 	Command file config-ticket-system.js is missing 'data' or toJSON method.
+[2025-08-15 12:32:00] debug: 	Loaded command for registration: remove-from-ticket
+[2025-08-15 12:32:00] debug: 	Loaded command for registration: setup
+[2025-08-15 12:32:00] debug: 	Loaded command for registration: setup-welcome
+[2025-08-15 12:32:00] debug: 	Loaded command for registration: upload-info
+[2025-08-15 12:32:00] info: 	Refreshing 5 application (/) commands.
+[2025-08-15 12:32:01] info: 	Successfully registered application commands globally.
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1378016677538566318 (EXPOSE !!)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 750054772605976638 (Pranshu Dewan 1)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 990720077491994684 (PandaOglan 2)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 765610879131582474 (IMRONO)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 936255373508243537 (Tuition Gang)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 872787020240535572 (Elíte Server Desígners)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 856758821849268236 (AKG's server)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 826825694205444107 (てきとうにつくったサーバー！)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 824169925249204255 (ok)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1301484174435291217 (Darkverse SMP)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 871390721666592778 (TRX  HYDRA yt)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 885876704118194198 (Harsh’s Yard)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 807127794240716831 (🎄・OrangeSky)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1045338284169101413 (VISHAL  LIVE)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1373190323823579216 (☬𝐒ÊN𝐒𝐀 Web)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 875184012006653962 (X01)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 262181873432657930 (𝐀𝐫𝐫𝐞𝐬𝐭 𝐅𝐚𝐦𝐢𝐥𝐲  👽『ᴳᵘⁿᵐᵃˣ』)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1384108562661376123 (GAME CHANGER YT)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 798952945919328343 (NOTHING TO SAY)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 925774439382134785 (Àyank's hangout)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 912331348935573556 (only song)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 913058885647073330 (Giveaways hub)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 831519062365569043 (Game Rewards)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 804559510030254131 (GAMERS_PARADISE/GIVEAWAYS)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 914347904716648459 (Class XI physics)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 903917888572882954 (\\)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1348612398541570119 (mcFleet)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 871353987637600267 (Dynamic City)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 772732098661318718 (WONDΣR◇LAND)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 845921328698753024 (Underlands)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 908729868496273418 (Class 10. Taoists)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1373662375332548649 (Konoha hangout)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1348996693118685297 (Rimuru temple)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1377542794285154384 (FHC FANDOM [🪽])
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 833181908129021953 (owned by my ass.)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 891911538590511124 (ROHIT PAL)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1391434875873132585 (Leaf)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 910009424234577971 (FRND 🥤 Social • Hangout • Vcs • Chilling • Fun • Pfp •)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 774922272422232104 (SHOUL)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 908998017640718336 (DxD Central)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 839014053618647050 (modular gaming and best hindustani gamer)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1039507911812075531 (unknown club)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 901672008557928458 (Đ₦𝙂𝙍乂𝙕𝙊𝙉𝙀)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 878512184378937355 (Beluga's sis)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 930062939040387103 (Sana Gaming YT)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 724871085555712050 (Check Announcement)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1379395988497895464 (HOME)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1119589526738837605 (.recurex Labs)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 875643450907844628 (We are OG's)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1012681626691575828 (Team Ng)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 842835908809195550 (ℙ𝕃𝔸𝕐𝟜𝕂𝕀𝕃𝕃)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 842614207777865749 (♡Vaishi♡      ♡ØP♡)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1341667350415544323 (TENSURA)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 842736147997655101 (😎CHILLZONE😎)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1056538362418319460 (Road To 20K)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 759615561973497876 (Pranav)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 374071874222686211 (Discords.com Bots)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 871406430933110805 (Xeno [https://discord.gg/fhkNWZSb9p])
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 756583488395673660 (B E S T_🔥)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1375100766875811880 (!   Rimuru_172's server)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 859591483925200896 (Gamers)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 857608627624083517 (B E A C H T O W N)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 865793911728111626 (𝚂𝙸𝙳𝙴 𝚂𝙷𝙾𝚆 𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 954693730600878100 (Nilay's Caféteria)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1060248257760088074 (send nukes)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 873447306886778900 (HZ | H3LL)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 876800899689897995 (soon)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 836871138649964556 (Torrance2011's server)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 807106597314494464 (EARTH HOMETOWN)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1075816557906763868 (⟪SHINO⟫ シɴᴏʙᴜ)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 876853241529385070 (Sarthak_Gaming)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 821333976065114152 (GUITAR)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 810400217798017046 (The xD Guys)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 1233029941960900689 (Xynox's server)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 819899570728337418 (https://discord.watch/ Bot List #1 - https://discord.gg/watch)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 915949678221221938 (Gamez OUT devoloper)
+[2025-08-15 12:32:01] debug: 	Ensured guild data directory for 912172940597030922 (Code Your Bot Contest)
+[2025-08-15 12:32:01] info: 	Bot is ready and all setup done!
